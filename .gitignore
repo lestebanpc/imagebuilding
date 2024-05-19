@@ -1,0 +1,10 @@
+#1. Archivos temporales del IDE/Editor VIM
+
+# Archivos swap (formato '.filename.swp')
+**/*.swp
+
+# Archivos de 'persistence undo' (formato '.filename.un~')
+**/*.un~
+
+# Log generados por: TMUX, ..
+*.log
