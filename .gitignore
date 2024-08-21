@@ -1,10 +1,16 @@
-#1. Archivos temporales del IDE/Editor VIM
-
-# Archivos swap (formato '.filename.swp')
+# VIM - Archivos swap o temporales (formato '.filename.swp')
 **/*.swp
+**/*.swo
 
-# Archivos de 'persistence undo' (formato '.filename.un~')
+# VIM - Archivos de 'persistence undo' (formato '.filename.un~')
 **/*.un~
 
 # Log generados por: TMUX, ..
 *.log
+
+# Archivos internos de GIT
+.git/*
+
+# Archivos de tag generado por Universal CTags
+tags
+
